@@ -29,14 +29,15 @@
     display: flex;
     justify-content: center;
     .content {
-        width: 90%;
+        width: 100%;
         height: 70px;
         // background: green;
         display: flex;
         justify-content: space-between;
         .left {
+            margin-left: 5%;
             display: flex;
-            // justify-content: center;
+            justify-content: center;
             align-items: center;
             img {
                 width: 50px;
@@ -49,6 +50,7 @@
             }
         }
         .right {
+            margin-right: 5%;
             display: flex;
             align-items: center;
             justify-content: center;
