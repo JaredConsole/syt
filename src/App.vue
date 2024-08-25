@@ -1,6 +1,7 @@
 <template>
-  <div>
-      <h1>app</h1>
+  <div class="container">
+      <!-- 顶部全局组件-->
+       <HospitalTop/>
   </div>
 </template>
 
