@@ -29,13 +29,13 @@
     display: flex;
     justify-content: center;
     .content {
-        width: 100%;
+        width: 1200px;
         height: 70px;
-        // background: green;
+        background: white;
         display: flex;
         justify-content: space-between;
         .left {
-            margin-left: 5%;
+            margin-left: 2%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -50,7 +50,7 @@
             }
         }
         .right {
-            margin-right: 5%;
+            margin-right: 2%;
             display: flex;
             align-items: center;
             justify-content: center;

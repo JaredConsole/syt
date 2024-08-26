@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   .content {
-    width: 100%;
+    width: 1200px;
     height: 100%;
     display: flex;
     justify-content: space-between;
