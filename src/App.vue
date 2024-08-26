@@ -1,18 +1,17 @@
 <template>
   <div class="container">
-      <!-- 顶部全局组件-->
-       <!-- <HospitalBottom/> -->
-       <HospitalTop />
-       <!-- 展示路由组件区域-->
-       <div class="content">
-       </div>
-       <HospitalBottom />
+    <!-- 顶部全局组件-->
+    <!-- <HospitalBottom/> -->
+    <HospitalTop />
+    <!-- 展示路由组件区域-->
+    <div class="content">
+      <router-view></router-view>
+    </div>
+    <HospitalBottom />
   </div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped lang="scss">
 .container {
@@ -23,9 +22,8 @@
   .content {
     margin-top: 70px;
     width: 1200px;
-    min-height : 700px;
-  // background: red;
+    min-height: 700px;
+    // background: red;
   }
 }
-
 </style>
